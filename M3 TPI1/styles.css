@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF8DC;
+    border: double 5px blue;
+    line-height: 150%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.principal {
+    color: black;
+}
+
+.titulo {
+    text-align: center;
+    line-height: 200%;
+    font-family: cursive;
+    color: black;
+}
+
+.contenido {
+    margin: 75px 75px 75px 75px;
+}
+
+.descuentos {
+    border: blueviolet solid;
+    display: grid;
+    text-align: center; /* Asegura que el texto dentro esté centrado */
+    padding: 20px; /* Espacio interno */
+    background-color: white;
+    width: fit-content; /* Ajusta el ancho al contenido */
+    line-height: 1.5; /* Mejora el espaciado entre líneas */
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.boton {
+    margin: auto 75px 75px;
+
+
+}

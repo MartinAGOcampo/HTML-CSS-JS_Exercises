@@ -1,0 +1,125 @@
+/*BASE: Estilos básicos, reseteo y fuentes globales*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFE4C4;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Fuente base */
+}
+
+/*   LAYOUT: Estructura y organización de contenedores principales*/
+
+   .contenido { 
+    background-color: #FFF8DC;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+/*   MODULE: Componentes reutilizables*/
+
+/* Título */
+h1 {
+    color: #333;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+/* Subtítulo */
+.subtitulo {
+    background-color: #778899;
+    color: #B22222;
+    font-family: monospace;
+    font-style: italic;
+    font-size: xx-large;
+    margin-bottom: 15px;
+}
+
+/* Párrafos */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Times New Roman";
+    margin-bottom: 15px;
+}
+
+/* Estilos específicos para párrafos con clase */
+.parrafo2, .parrafo3 { 
+    background-color: #FFFAF0;
+    color: #2F4F4F;
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+/* Recuadros con borde */
+.recuadros {
+    font-family: Verdana, sans-serif;
+    font-size: medium;
+    margin: 20px;
+    padding: 10px;
+    border: 2px groove black;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.subrecuadro {
+    display: block;
+    background-color: #FFFAF0;
+    color: #333;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #B22222;
+    font-family: Verdana;
+    display: inline-block;
+}
+
+/* Pie de página */
+.autor {
+    color: #666;
+    font-style: italic;
+    background-color: #B0C4DE;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px double black;
+    text-align: center;
+}
+
+/*   STATE: Modificaciones o variaciones de componentes */
+
+/* Variación de tamaño de la clase .barra_espaciadora */
+.barra_espaciadora--GRANDE {
+    font-size: large;
+}
+
+/* Modificación para el subrecuadro */
+.subrecuadro--P1 {
+    background-color: #FFEBCD; 
+    border-color: #8B4513;
+}
+
+/* Modificación para el subrecuadro de Parrafo 2 */
+.subrecuadro--P2 {
+    background-color: #E6E6FA; 
+    border-color: #4B0082;
+}
+
+/*   THEME: Estilos relacionados con color, fuentes adicionales */
+
+/* Color y tamaño de texto de barra_espaciadora */
+.barra_espaciadora {
+    color: #B22222;
+    font-family: fantasy;
+    font-size: small;
+    margin-bottom: 15px;
+}

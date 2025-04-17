@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprobador de descuentos</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<div class = "principal" >
+    <h1 class="titulo">Calculadora de descuentos</h1>
+    <div class="contenido">
+        <p>Esta es una herramienta para comercios. podras verificar si una compra ingresada puede tener descuento de acuerdo al monto que elijas</p>
+        <p>Inicialmente es una <b>plataforma beta</b>, por lo que se trabajara con un descuento ya pactado que se especificara a continuacion</p>
+        
+        <p>NO ACUMULABLE CON OTRAS PROMOS</p>
+    </div>
+    
+    <div class = "descuentos">
+        <p>25% OFF para compras mayores a $65.000</p>
+        <p>15% OFF para compras mayores a $35.000</p>
+        <p>5% OFF para compras mayores a $20.000</p>
+    </div>
+    
+    <div class="contenido">
+        <label for="nombre">Monto de compra realizada:</label>
+        <input type="number" id="nombre" name="nombre" placeholder="Ingresa el monto" required>
+
+
+    </div>
+
+</div>
+<button class="boton" onclick="calcularDescuento()">Calcular Descuento</button> <!--   -->
+<script src="logica.js" defer></script>
+
+
+</body>
+
+</html>
